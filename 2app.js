@@ -99,6 +99,7 @@ function SearchBar({
         value={filterText} placeholder="Search..." 
         onChange={(e) => onFilterTextChange(e.target.value)} />
       <label>
+        
         <input 
           type="checkbox" 
           checked={inStockOnly} 

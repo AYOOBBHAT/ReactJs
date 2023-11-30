@@ -114,3 +114,5 @@ function SearchBar({ filterText, inStockOnly }) {
 export default function App() {
   return <FilterableProductTable products={PRODUCTS} />;
 }
+
+
